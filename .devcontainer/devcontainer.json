@@ -1,0 +1,15 @@
+{
+  "name": "FastAPI練習環境",
+  "dockerFile": "./Dockerfile",
+  "remoteUser": "vscode",
+  "workspaceMount": "type=bind,source=${localWorkspaceFolder},target=/home/vscode/project",
+  "workspaceFolder": "/home/vscode/project",
+  "extensions": [
+    "ms-python.python",
+    "vmsynkov.colonize",
+    "eamodio.gitlens",
+    "mhutchie.git-graph",
+    "johnpapa.vscode-peacock",
+  ],
+  "forwardPorts": [8000]
+}
