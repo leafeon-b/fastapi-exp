@@ -7,7 +7,7 @@ set -eu
 
 
 function main() {
-  pushd ./app
+  pushd ./src/app
   uvicorn main:app --reload
   popd
 }
